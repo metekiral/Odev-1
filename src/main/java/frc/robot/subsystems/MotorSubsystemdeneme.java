@@ -19,7 +19,7 @@ import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import edu.wpi.first.wpilibj2.command.Command;
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
 
-  public class MotorSubsystemdenemem extends SubsystemBase {
+  public class MotorSubsystemdeneme extends SubsystemBase {
     TalonFX krakenTalonFX = new TalonFX(0);
     TalonFX krakeTalonFX = new TalonFX(1);
     TalonFX krakTalonFX = new TalonFX(2);
@@ -39,7 +39,7 @@ import edu.wpi.first.wpilibj2.command.SubsystemBase;
     VelocityVoltage m_VelocityVoltage = new VelocityVoltage(0).withSlot(0);
     TalonFXConfiguration talonFXConfiguration = new TalonFXConfiguration();
 
-    public void MotorSubsystemdenemem() {
+    public void MotorSubsystemdeneme() {
 
       TalonFXConfiguration talonFXConfigs = new TalonFXConfiguration();
           withMotorOutput(
@@ -57,7 +57,7 @@ import edu.wpi.first.wpilibj2.command.SubsystemBase;
     
     talonFXConfiguration.MotorOutput.NeutralMode = NeutralModeValue.Coast;
 
-    public MotorSubsystemdenemem(){
+    public MotorSubsystemdeneme(){
 
       krakenTalonFX.setNeutralMode(NeutralModeValue.Coast);
       krakeTalonFX.setNeutralMode(NeutralModeValue.Coast);

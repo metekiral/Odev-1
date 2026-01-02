@@ -6,14 +6,14 @@ import frc.robot.subsystems.FeederSubsystem;
 import edu.wpi.first.wpilibj.PS5Controller;
 import edu.wpi.first.wpilibj2.command.button.JoystickButton;
 
-public class RobotContainer {
+public class Robot2 {
 
     private final IntakeSubsystem intake = new IntakeSubsystem();
     private final FeederSubsystem feeder = new FeederSubsystem();
 
     private final PS5Controller controller = new PS5Controller(0);
 
-    public RobotContainer() {
+    public Robot2() {
         configureBindings();
     }
 
